@@ -121,8 +121,6 @@ export const BoardPage = () => {
           </div>
         )}
 
-        {loading && <div className="loading">Loading issues...</div>}
-
         <div className="board-content">
           <div className="board-columns">
             {columns.map(column => (

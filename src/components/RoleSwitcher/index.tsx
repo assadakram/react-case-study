@@ -37,9 +37,7 @@ export const RoleSwitcher: React.FC = () => {
           <option value="admin">Admin</option>
           <option value="contributor">Contributor</option>
         </select>
-        {role === 'admin' && (
-          <span className="admin-badge">ADMIN</span>
-        )}
+          <span className="admin-badge">{role === 'admin' ? "ADMIN" : "CONTRIBUTOR"}</span>
       </div>
     </div>
   );
