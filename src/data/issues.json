@@ -5,9 +5,10 @@
     "status": "Backlog",
     "priority": "high",
     "severity": 3,
-    "createdAt": "2025-07-09T10:00:00Z",
+    "createdAt": "2025-10-07T10:00:00Z",
     "assignee": "alice",
-    "tags": ["auth", "bug"]
+    "tags": ["auth", "bug"],
+    "userDefinedRank": 5
   },
   {
     "id": "2",
@@ -15,9 +16,10 @@
     "status": "In Progress",
     "priority": "medium",
     "severity": 2,
-    "createdAt": "2025-07-08T12:00:00Z",
+    "createdAt": "2025-10-06T12:00:00Z",
     "assignee": "bob",
-    "tags": ["performance"]
+    "tags": ["performance"],
+    "userDefinedRank": 0
   },
   {
     "id": "3",
@@ -25,8 +27,42 @@
     "status": "Done",
     "priority": "low",
     "severity": 1,
-    "createdAt": "2025-07-07T09:30:00Z",
+    "createdAt": "2025-10-05T09:30:00Z",
     "assignee": "carol",
-    "tags": ["ui"]
+    "tags": ["ui"],
+    "userDefinedRank": 2
+  },
+  {
+    "id": "4",
+    "title": "Database performance optimization",
+    "status": "Backlog",
+    "priority": "high",
+    "severity": 3,
+    "createdAt": "2025-10-08T14:30:00Z",
+    "assignee": "alice",
+    "tags": ["performance", "database"],
+    "userDefinedRank": 8
+  },
+  {
+    "id": "5",
+    "title": "Update user documentation",
+    "status": "In Progress",
+    "priority": "medium",
+    "severity": 1,
+    "createdAt": "2025-10-04T11:00:00Z",
+    "assignee": "bob",
+    "tags": ["documentation"],
+    "userDefinedRank": 1
+  },
+  {
+    "id": "6",
+    "title": "Security vulnerability patch",
+    "status": "Backlog",
+    "priority": "high",
+    "severity": 3,
+    "createdAt": "2025-10-08T16:45:00Z",
+    "assignee": "carol",
+    "tags": ["security", "critical"],
+    "userDefinedRank": 10
   }
 ]
